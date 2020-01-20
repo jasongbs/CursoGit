@@ -11,7 +11,7 @@ namespace PrimeiroProjeto
      
             Console.Write("Entre com número da conta: ");
             c.NConta = int.Parse(Console.ReadLine());
-            Console.Write("Entre o titular da conta: ");
+            Console.Write("Entre o nome do titular da conta: ");
             c.Titular = Console.ReadLine();
 
             Console.Write("Havera depósito inicial (s/n)?");
