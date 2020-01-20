@@ -14,7 +14,7 @@ namespace PrimeiroProjeto
             Console.Write("Entre o nome do titular da conta: ");
             c.Titular = Console.ReadLine();
 
-            Console.Write("Havera depósito inicial (s/n)?");
+            Console.Write("Havera depósito inicial do "+c.Titular+" (s/n)?");
             char operacao = char.Parse(Console.ReadLine());
 
             if (operacao == 's' || operacao == 'S'){
